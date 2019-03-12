@@ -7,5 +7,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>Chapter5</module>
+    <module>Chapter6</module>
   </modules>
 </project>
