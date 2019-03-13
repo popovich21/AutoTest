@@ -1,0 +1,41 @@
+[
+	{
+		"description":"模拟一个没有参数的get请求",
+		"request":{
+			"uri":"/getdemo",
+			"method":"get"
+		},
+		"response":{
+			"text":"这是一个没有参数的get响应"
+		}
+
+	},
+	{
+		"description":"模拟一个带参数的get请求",
+		"request":{
+			"uri":"/getdemo1",
+			"method":"get",
+			"queries":{
+			"name":"huhansan",
+			"age":"18"
+			}
+		},
+		"response":{
+			"text":"这是一个带参数的get响应"
+		}
+
+	},
+	{
+		"description":"模拟一个带参数的get请求",
+		"request":{
+			"uri":"/temp",
+			"method":"get"			
+		},
+		"response":{
+			"text":{
+			"template":"${req.queries['name']}:${req.queries['age']}"
+			}
+		}
+
+	}
+]

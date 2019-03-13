@@ -1,0 +1,20 @@
+[
+	{	"file_root":"api_json",
+        "include": "startupGet.json"
+    },
+    {	"file_root":"api_json",
+        "include": "startup1.json"
+    },
+    {	"file_root":"api_json",
+        "include": "startupPost.json"
+    },
+    {	"file_root":"api_json",
+        "include": "startupWithCookies.json"
+    },
+    {	"file_root":"api_json",
+        "include": "startupWithHeader.json"
+    },
+     {	"file_root":"api_json",
+        "include": "startupWithRedirect.json"
+    }
+]
